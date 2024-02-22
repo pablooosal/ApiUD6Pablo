@@ -49,7 +49,6 @@ public class JuegoControlador {
                     juegoTemp.setNombre((juego.getNombre()!=null)? juego.getNombre(): juegoTemp.getNombre());
                     return juegoRepositorio.save(juegoTemp);
                 }).orElseThrow(()-> new RuntimeException("Juego no encontrado."));
-
     }
 
 }
