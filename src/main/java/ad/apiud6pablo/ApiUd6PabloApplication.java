@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ApiUd6PabloApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ApiUd6PabloApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ApiUd6PabloApplication.class, args);
+	}
 
 }
