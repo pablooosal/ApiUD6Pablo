@@ -51,4 +51,6 @@ public class JuegoControlador {
                 }).orElseThrow(()-> new RuntimeException("Juego no encontrado."));
     }
 
+
+
 }
